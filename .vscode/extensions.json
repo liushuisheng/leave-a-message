@@ -1,3 +1,8 @@
 {
-  "recommendations": ["Vue.volar"]
+  "recommendations": [
+    "Vue.volar", 
+    "wowbox.minapp-vscode-box", 
+    "chandzhang.wechat-snippet",
+    "qiu8310.minapp-vscode"
+  ]
 }
