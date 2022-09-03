@@ -1,0 +1,29 @@
+{
+  "name": "miniprogram",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "刘水生 <liushuisheng@landray.com.cn>",
+  "homepage": "https://github.com/liushuisheng/leaveAmessage#readme",
+  "license": "ISC",
+  "main": "lib/miniprogram.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liushuisheng/leaveAmessage.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/liushuisheng/leaveAmessage/issues"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "leave-a-message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/liushuisheng/leaveAmessage.git",
+  "author": "刘水生 <liushuisheng@landray.com.cn>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:pc": "yarn workspace pc run dev",
+    "dev:h5": "yarn workspace h5 run dev",
+    "dev:miniprogram": "yarn workspace miniprogram run dev"
+  },
+  "devDependencies": {
+    "create-vite": "^3.0.2",
+    "lerna": "^3.22.1",
+    "vite": "^3.0.9"
+  }
+}
